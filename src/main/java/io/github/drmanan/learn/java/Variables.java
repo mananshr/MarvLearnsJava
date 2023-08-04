@@ -9,6 +9,9 @@
 package io.github.drmanan.learn.java;
 
 public class Variables {
+
+    // rules regarding names of variables
+    // not discussing conventions at the moment
     public static void main(String[] args) {
         int marks = 20;
         String name = "Student"; // Definition

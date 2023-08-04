@@ -22,13 +22,29 @@ public class DataTypesExample {
 
         // Primitive
         // Pre defined in java
+        /*
+         * Primitive
+         * |-- Non-Numeric
+         *    |-- Boolean // boolean
+         *    |-- Character // char
+         * |-- Numeric
+         *    |-- Fixed point numbers (Whole numbers)
+         *         |-- Byte // byte
+         *         |-- Short // short
+         *         |-- Integer // int
+         *         |-- Long // long
+         *    |-- Floating point numbers (fractional)
+         *         |-- Float // float
+         *         |-- Double // double
+         *
+         * */
 
-        boolean b = true; // size: 1 byte
+        boolean b = true; // size: 1 byte // true or false
         b = false;
 
         System.out.println(b);
 
-        char c = 'a'; // 2 bytes
+        char c = 'a'; // 2 bytes // any single character on the keyboard
         System.out.println(c);
 
         c = 'क'; // supports unicode
@@ -106,6 +122,9 @@ public class DataTypesExample {
 
         vd = 3.14159265358979323846;
         System.out.println(vd); // 15 sig figs
+
+        vd = 12345678901234567890d; // here d is required to differ from int
+        System.out.println(vd); // shows scientific notation with power of 10 (represented by E) // 15 sig figs
 
     }
 }
