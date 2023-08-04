@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af7ceafc-1f51-4e8d-96c4-f541db3e1e06" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/drmanan/learn/java/Operators.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/drmanan/learn/java/DataTypesExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/drmanan/learn/java/DataTypesExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/drmanan/learn/java/FirstCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/drmanan/learn/java/FirstCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/drmanan/learn/java/Variables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/drmanan/learn/java/Variables.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/drmanan/learn/java/Operators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/drmanan/learn/java/Operators.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +58,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1691140205750</updated>
-      <workItem from="1691140206887" duration="10326000" />
+      <workItem from="1691140206887" duration="18049000" />
     </task>
     <servers />
   </component>
