@@ -66,6 +66,9 @@ public class StringsExample {
         String c = a + b;  // c will be 1020 (a String)
         System.out.println(c);
 
+        // Since java 9 onwards, concatenation with + has been highly optimised
+        // Hence, there is no need to use string.concat()
+
         // If you add a number and a string, the result will be a string concatenation:
         c = a + x;
         System.out.println(c);
@@ -96,5 +99,66 @@ public class StringsExample {
         txt = "The character \\ is called backslash.";
         System.out.println(txt);
 
+        /*
+        * Some other Escape characters
+        *
+        +------+-----------------+---------------------------------+
+        | Code | Result          | Comment                         |
+        +------+-----------------+---------------------------------+
+        | \n   | New Line        | Go to the next line.            |
+        | \r   | Carriage Return | Go to start of the same line.   |
+        | \t   | Tab             | Insert a tab in the text.       |
+        | \b   | Backspace       | Insert a backspace in the text  |
+        | \f   | Form Feed       | Insert a form feed in the text. |
+        +------+-----------------+---------------------------------+
+        * */
+
+        System.out.println("Gita is going to Market\rS ");
+
+        // Substring
+        txt = "1234567890";
+
+        String subtxt = txt.substring(5);
+        System.out.println(subtxt);
+
+        subtxt = txt.substring(2, 5);
+        System.out.println(subtxt);
+
+        // ╔═══════╦═══╦═══╦═══╦═══╦═══╦═══╦═══╦═══╦═══╦═══╗
+        // ║ Value ║ 1 ║ 2 ║ 3 ║ 4 ║ 5 ║ 6 ║ 7 ║ 8 ║ 9 ║ 0 ║
+        // ╠═══════╬═══╬═══╬═══╬═══╬═══╬═══╬═══╬═══╬═══╬═══╣
+        // ║ Index ║ 0 ║ 1 ║ 2 ║ 3 ║ 4 ║ 5 ║ 6 ║ 7 ║ 8 ║ 9 ║
+        // ╚═══════╩═══╩═══╩═══╩═══╩═══╩═══╩═══╩═══╩═══╩═══╝
+
+        // Contains
+        System.out.println(txt.contains(subtxt));
+        System.out.println(txt.contains("subtxt"));
+
+        txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        subtxt = "DEFGH";
+        System.out.println(txt.contains(subtxt));
+
+        subtxt = "abcdef";
+        System.out.println(txt.contains(subtxt));
+
+        // is empty?
+        System.out.println(subtxt.isEmpty());
+
+        subtxt = "";
+        System.out.println(subtxt.isEmpty());
+
+        // is blank
+        System.out.println(subtxt.isBlank());
+
+        subtxt = "     ";
+        System.out.println(subtxt.isEmpty());
+        System.out.println(subtxt.isBlank());
+
+        // Replace
+        String name = firstName + " " + lastName;
+        System.out.println(name);
+
+        String newName = "Jane";
+        System.out.println(name.replace(firstName, newName));
     }
 }
